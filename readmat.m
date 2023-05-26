@@ -2,12 +2,12 @@ clc;
 clear;
 
 % % whos 查看变量名
-% a = "E:\AA实验室\OSDM\OSDM论文修改对比实验\两种数据集result_max的残差图\NCSN++CQ500\rec_5.mat";
+% a = "路径\rec_5.mat";
 % data = load(a);
 % whos('-file', a);
 
 % %%  展示某张npy或mat图片
-% load("E:\AA实验室\OSDM\OSDM论文修改对比实验\两种数据集result_max的残差图\OSDM\1e4\rec_11.mat")
+% load("路径\rec_11.mat")
 % imshow(squeeze(data))
 
 
@@ -15,7 +15,7 @@ clear;
 
 %% 展示batch_img.mat第x个图片
 %读取mat文件
-load("E:\AA实验室\OSDM\OSDM论文修改对比实验\两种数据集result_max的残差图\低剂量hankel对比实验结果\泛化实验\CQ500\GT.npy");
+load("路径\GT.npy");
 
 % 显示第二张图片
 
