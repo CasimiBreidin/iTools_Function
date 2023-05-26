@@ -3,7 +3,7 @@
 %% 注意  img = img_data.data; 代码注释！！！
 % 且有两个相同内容的变量名：Img和batch_img
 
-folder = "E:\AA实验室\OSDM\OSDM论文修改对比实验\两种数据集result_max的残差图\NCSN++\CQ500_1e4";
+folder = "路径\CQ500_1e4";
 
 % 初始化 batch_img
 batch_img = zeros(12, 512, 512);
